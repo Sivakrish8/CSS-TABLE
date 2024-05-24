@@ -1,0 +1,42 @@
+.table2{
+    table-layout: auto;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+     
+}
+.box{
+    width: 800px;
+    height: 300px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+th{
+    padding: 10px;
+}
+tbody > tr{
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+     
+    
+}
+ 
+thead > tr{
+    background-color: violet;
+    color: white;
+    font-family: "Lucida Console", Courier, monospace;
+     
+}
+.nth-child:nth-child(odd) {
+    background-color: rgba(238, 238, 238, 0.884);
+}
+.nth-child:nth-child(even){
+    background-color: white;
+}
+body{
+    background-color: pink;
+}
+

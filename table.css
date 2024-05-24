@@ -1,0 +1,32 @@
+.table{
+    table-layout: auto;
+    width: 800px;
+    height: 300px;
+    border: 1px solid rgb(43, 41, 39);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    
+  
+}
+thead > tr{
+    background-color: yellow;
+}
+table{
+    table-layout: fixed;
+}
+tbody > tr {
+    text-align: center;
+}
+html{
+    background-color: greenyellow;
+}
+.nth-child:nth-child(odd){
+    background-color: white;
+}
+.nth-child:nth-child(even){
+    background-color: white;
+}
